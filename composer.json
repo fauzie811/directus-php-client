@@ -1,0 +1,21 @@
+{
+    "name": "fauzie/directus-client",
+    "autoload": {
+        "files": [
+            "app/helpers.php"
+        ],
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Fauzie",
+            "email": "fauzie811@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "motekar/roti": "dev-main"
+    }
+}

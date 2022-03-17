@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "1c121f92ab21827cddaaed1df3d60898",
+    "packages": [
+        {
+            "name": "motekar/roti",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/motekar/roti.git",
+                "reference": "1786bfe85f58c7cce6871aba9d81cd2d6a69fba6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/motekar/roti/zipball/1786bfe85f58c7cce6871aba9d81cd2d6a69fba6",
+                "reference": "1786bfe85f58c7cce6871aba9d81cd2d6a69fba6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Motekar\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "fadlee",
+                    "email": "fad.lee@hotmail.com"
+                }
+            ],
+            "description": "Simple PHP file-based router",
+            "support": {
+                "issues": "https://github.com/motekar/roti/issues",
+                "source": "https://github.com/motekar/roti/tree/main"
+            },
+            "time": "2022-03-17T06:32:42+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "motekar/roti": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
